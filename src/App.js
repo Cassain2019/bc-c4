@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      Hello World from all of us !
+      You are seeing all of Cashif Hussain Repositories !
       <ul>
         {repos.map((repoObj,ind)=>{
           return(<li key={ind}>{repoObj.name}</li>)
